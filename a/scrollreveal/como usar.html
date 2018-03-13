@@ -1,0 +1,35 @@
+Exemplos de utilização
+
+Para adicionar a funcionalidade do plug-in, é necessário adicionar o elemento data data-scroll-reveal na tag do elemento que será animado, no nosso caso uma div, conforme o exemplo abaixo, onde animamos a box1:
+
+<div class="box1" data-scroll-reveal="">
+
+Yellow-and-black triplefin North American freshwater catfish, albacore shiner, squeaker sabertooth snoek Canthigaster rostrata. Mackerel dogfish brook trout hardhead catfish peacock flounder Oregon chub European eel Black scabbardfish brook trout steelhead. Pencilfish Mexican blind cavefish yellowmargin triggerfish cutthroat eel shiner, duckbill kelp perch false trevally--temperate ocean-bass dory redlip blenny javelin peladillo pompano whitebait; perch, halosaur slimehead. Flagfish coffinfish: northern anchovy skipjack tuna. Kingfish righteye flounder Chinook salmon albacore dogfish leatherjacket Blenny guitarfish false trevally.
+
+</div>
+Com o atributo acima o elemento recebe uma animação padrão, mas podemos melhorar essa animação com os seguintes atributos:
+
+Enter
+
+Cotrola a origem do elemento, se vem de cima, de baixo, da direita ou da esquerda, conforme o exemplo abaixo:
+enter + top | right | bottom | left
+
+<div data-scroll-reveal="enter top">teste1</div>
+Move
+
+A distancia que o elemento percorre ao se mover para direção declarada no enter.
+move + valor em px 20px
+
+<div data-scroll-reveal="move 20px">teste1</div>
+Over
+
+Duração da animação mediantes os parametros anteriores.
+over + valor decimal em segundos 10s
+
+<div data-scroll-reveal="over 10s">teste1</div>
+After/Wait
+
+Duração da animação após o elemento ser revelado.
+after/wait + valor decimal em segundos 10s
+
+<div data-scroll-reveal="after/wait 10s">teste1</div>
